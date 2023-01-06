@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#51e2f5, #9df9ef, #edf7f6, #ffa8b6, #a28089);
+}
+
+.container {
+    display: grid;
+    grid: repeat(3, 1fr) / repeat(3, 1fr);
+    width: 600px;
+    height: 600px;
+    border: 1px solid blue;
+}
+
+.cell {
+    background: linear-gradient( cyan, blue);
+    border: 1px solid black;
+}
