@@ -15,6 +15,11 @@ body {
     background: linear-gradient(#51e2f5, #9df9ef, #edf7f6, #ffa8b6, #a28089);
 }
 
+.turn-display {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .container {
     display: grid;
     grid: repeat(3, 1fr) / repeat(3, 1fr);
@@ -26,4 +31,9 @@ body {
 .cell {
     background: linear-gradient( cyan, blue);
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-weight: bolder;
 }
